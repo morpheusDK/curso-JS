@@ -1,0 +1,16 @@
+#foto{
+    height: 200px
+}
+
+#iconos{
+    width: 2%
+}
+
+section{
+    padding-left: 140px;
+    padding-right: 140px 
+}
+
+.nav-pills .nav-link.active{
+    background-color: transparent;
+}
