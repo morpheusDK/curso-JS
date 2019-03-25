@@ -1,5 +1,7 @@
 #foto{
-    height: 200px
+    height: 150px;
+    width: 150px;
+    text-align: justify;
 }
 
 #iconos{
@@ -7,10 +9,51 @@
 }
 
 section{
-    padding-left: 120px;
-    padding-right: 120px 
+    padding-left: 80px;
+    padding-right: 80px 
 }
 
 .nav-pills .nav-link.active{
+	color: tomato;
     background-color: transparent;
+}
+
+.panel{
+    position: absolute;
+    display: none;
+}
+
+.panel.active {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    animation-name: entrada;
+    animation-duration: 2s;
+}
+
+.videos{
+    position: absolute;
+    display: none;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+}
+
+.videos.active{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    animation-name: entrada;
+    animation-duration: 2s;
+}
+
+.button {
+    padding: 5px 10px;
+    margin: 15px auto;
+    background: #4A78FF;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    width: 100px;
 }
